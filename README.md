@@ -1,2 +1,2 @@
-# Resturant-website
+# index.html
 My first website
