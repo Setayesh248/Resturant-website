@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رستوران بهار</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Tahoma,Arial,sans-serif;background:#fffaf4;color:#2d241f;line-height:1.8}
+header{background:#4b1f18;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:25px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-right:22px}
+.hero{min-height:75vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:linear-gradient(135deg,#f3d2b3,#fff7ee)}
+.hero h1{font-size:48px;color:#4b1f18;margin-bottom:12px}
+.hero p{font-size:20px;margin-bottom:25px}
+.btn{display:inline-block;background:#b45f3c;color:white;padding:12px 28px;border-radius:30px;text-decoration:none}
+section{padding:65px 7%}
+.title{text-align:center;font-size:32px;color:#4b1f18;margin-bottom:35px}
+.cards{display:flex;gap:22px;justify-content:center;flex-wrap:wrap}
+.card{background:white;width:280px;padding:28px;border-radius:18px;text-align:center;box-shadow:0 8px 25px rgba(0,0,0,.08)}
+.icon{font-size:52px;margin-bottom:10px}
+.card h3{color:#8d432a;margin-bottom:8px}
+.price{font-weight:bold;color:#b45f3c;margin-top:12px;font-size:19px}
+.about{text-align:center;background:#f6e5d7}
+.contact{text-align:center}
+footer{background:#4b1f18;color:white;text-align:center;padding:25px}
+@media(max-width:650px){header{flex-direction:column;gap:8px}.hero h1{font-size:35px}nav a{margin:0 7px;font-size:14px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🍽️ رستوران بهار</div>
+<nav>
+<a href="#home">خانه</a>
+<a href="#menu">منو</a>
+<a href="#about">درباره ما</a>
+<a href="#contact">تماس</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div>
+<h1>طعم خوب، خاطره خوب</h1>
+<p>غذاهای تازه و خوشمزه با بهترین مواد اولیه</p>
+<a class="btn" href="#menu">دیدن منو</a>
+</div>
+</section>
+
+<section id="menu">
+<h2 class="title">منوی محبوب ما</h2>
+<div class="cards">
+<div class="card"><div class="icon">🍔</div><h3>برگر مخصوص</h3><p>برگر تازه با سبزیجات و سس مخصوص</p><div class="price">۸۵۰ افغانی</div></div>
+<div class="card"><div class="icon">🍕</div><h3>پیتزای ویژه</h3><p>پنیر فراوان، سبزیجات تازه و طعم عالی</p><div class="price">۱۲۰۰ افغانی</div></div>
+<div class="card"><div class="icon">🍝</div><h3>پاستا</h3><p>پاستای تازه با سس مخصوص رستوران</p><div class="price">۹۵۰ افغانی</div></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2 class="title">درباره رستوران بهار</h2>
+<p>ما تلاش می‌کنیم هر روز غذایی تازه، خوشمزه و باکیفیت برای مهمانان خود آماده کنیم.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="title">تماس با ما</h2>
+<p>📞 0700 000 000</p>
+<p>📍 افغانستان</p>
+<p>✉️ info@bahar-restaurant.com</p>
+</section>
+
+<footer>© 2026 رستوران بهار — تمامی حقوق محفوظ است.</footer>
+</body>
+</html>
